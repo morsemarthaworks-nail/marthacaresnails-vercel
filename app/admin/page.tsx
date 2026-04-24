@@ -8,7 +8,7 @@ export default function AdminPage() {
   const [code, setCode] = useState("");
 
   const login = () => {
-    if (code === "Martha2026") {
+    if (code === "Book1994") {
       setLoggedIn(true);
     } else {
       alert("Wrong code");
